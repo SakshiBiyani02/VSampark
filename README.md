@@ -7,18 +7,18 @@ The scalable architecture of VSampark allows it to cater to a wide range of user
 3. Database: Mongo DB
 # Objectives 
 The following are the objectives of this project:
-● Real-time Communication:Provide an instant messaging solution where messages are
+1. Real-time Communication:Provide an instant messaging solution where messages are
 delivered in real-time with no noticeable delay, enabling dynamic interactions.
-● Secure User Authentication:Ensure the security and privacy of user data by implementing
+2. Secure User Authentication:Ensure the security and privacy of user data by implementing
 a secure authentication system with token-based session management, preventing
 unauthorized access to user accounts.
-● User-Friendly Interface:Build an intuitive and responsive user interface using React and
+3. User-Friendly Interface:Build an intuitive and responsive user interface using React and
 Material UI, ensuring that the application is easy to use and accessible across different
 devices.
-● Scalability:Develop an application that can easily scale to accommodate a growing number
+4. Scalability:Develop an application that can easily scale to accommodate a growing number
 of users and messages, ensuring long-term reliability and performance.
-● Group Collaboration:Enable users to collaborate and communicate effectively in group
+5. Group Collaboration:Enable users to collaborate and communicate effectively in group
 settings, making it suitable for professional teams, educational groups, and communities.
-● Future-Proofing:Ensure that VSampark is built with flexibility in mind, so that it can be
+6. Future-Proofing:Ensure that VSampark is built with flexibility in mind, so that it can be
 extended with additional features such as video calls, media sharing, and enhanced security
 features in future versions.
