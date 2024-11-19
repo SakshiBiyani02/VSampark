@@ -22,4 +22,4 @@ settings, making it suitable for professional teams, educational groups, and com
 6. Future-Proofing:Ensure that VSampark is built with flexibility in mind, so that it can be
 extended with additional features such as video calls, media sharing, and enhanced security
 features in future versions.
-![Login Page](https://github.com/SakshiBiyani02/VSampark/blob/main/vsampark_screenshots/LoginPage.png?raw=true)
+(https://github.com/SakshiBiyani02/VSampark/blob/main/vsampark_screenshots/LoginPage.png?raw=true)
