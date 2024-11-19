@@ -33,7 +33,9 @@ features in future versions.
 ![Chat Page](https://github.com/SakshiBiyani02/VSampark/blob/main/vsampark_screenshots/ChatPage.png?raw=true)
 # Features
 ## User-Authentication
+### Login Page
 ![Login Page](https://github.com/SakshiBiyani02/VSampark/blob/main/vsampark_screenshots/LoginPage.png?raw=true)
+### Sign Up page 
 ![Sign Up page](https://github.com/SakshiBiyani02/VSampark/blob/main/vsampark_screenshots/SignUp_Page.png?raw=true)
 ## Real Time Chatting with Typing indicators
 ![Real time chatting](https://github.com/SakshiBiyani02/VSampark/blob/main/vsampark_screenshots/Typing%20indicaters%20while%20real%20time%20chatting.png?raw=true)
