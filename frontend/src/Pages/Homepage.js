@@ -38,6 +38,7 @@ function Homepage() {
           fontSize="4xl"
           fontFamily="Work sans"
           fontWeight="bold"
+          color="navy"
           textAlign="center"
         >
           VSampark

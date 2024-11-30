@@ -53,7 +53,7 @@ const UpdateGroupChatModal = ({ fetchMessages, fetchAgain, setFetchAgain }) => {
     } catch (error) {
       toast({
         title: "Error Occured!",
-        description: "Failed to Load the Search Results",
+        description: "Failed to load the search results",
         status: "error",
         duration: 5000,
         isClosable: true,
@@ -89,7 +89,7 @@ const UpdateGroupChatModal = ({ fetchMessages, fetchAgain, setFetchAgain }) => {
       setRenameLoading(false);
     } catch (error) {
       toast({
-        title: "Error occured!",
+        title: "Error Occured!",
         description: error.response.data.message,
         status: "error",
         duration: 5000,
@@ -104,7 +104,7 @@ const UpdateGroupChatModal = ({ fetchMessages, fetchAgain, setFetchAgain }) => {
   const handleAddUser = async (user1) => {
     if (selectedChat.users.find((u) => u._id === user1._id)) {
       toast({
-        title: "User already in group!",
+        title: "User Already in group!",
         status: "error",
         duration: 5000,
         isClosable: true,
@@ -145,7 +145,7 @@ const UpdateGroupChatModal = ({ fetchMessages, fetchAgain, setFetchAgain }) => {
       setLoading(false);
     } catch (error) {
       toast({
-        title: "Error occured!",
+        title: "Error Occured!",
         description: error.response.data.message,
         status: "error",
         duration: 5000,
@@ -250,7 +250,7 @@ const UpdateGroupChatModal = ({ fetchMessages, fetchAgain, setFetchAgain }) => {
             </FormControl>
             <FormControl>
               <Input
-                placeholder="Add user to group"
+                placeholder="Add User to group"
                 mb={1}
                 onChange={(e) => handleSearch(e.target.value)}
               />
@@ -270,7 +270,7 @@ const UpdateGroupChatModal = ({ fetchMessages, fetchAgain, setFetchAgain }) => {
           </ModalBody>
           <ModalFooter>
             <Button onClick={() => handleRemove(user)} colorScheme="red">
-              Leave group
+              Leave Group
             </Button>
           </ModalFooter>
         </ModalContent>

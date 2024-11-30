@@ -83,8 +83,8 @@ function SideDrawer() {
       setSearchResult(data);
     } catch (error) {
       toast({
-        title: "Error occured!",
-        description: "Failed to load the search results",
+        title: "Error Occured!",
+        description: "Failed to Load the Search Results",
         status: "error",
         duration: 5000,
         isClosable: true,
@@ -141,9 +141,16 @@ function SideDrawer() {
             </Text>
           </Button>
         </Tooltip>
-        <Text fontSize="2xl" fontFamily="Work sans">
+        <Text
+          fontSize="2xl"
+          fontFamily="Work sans"
+          fontWeight="bold"
+          color="navy"
+          textAlign="center"
+        >
           VSampark
         </Text>
+
         <div>
           <Menu>
             <MenuButton p={1}>
@@ -154,7 +161,7 @@ function SideDrawer() {
               <BellIcon fontSize="2xl" m={1} />
             </MenuButton>
             <MenuList pl={2}>
-              {!notification.length && "No new messages"}
+              {!notification.length && "No New Messages"}
               {notification.map((notif) => (
                 <MenuItem
                   key={notif._id}
@@ -164,8 +171,8 @@ function SideDrawer() {
                   }}
                 >
                   {notif.chat.isGroupChat
-                    ? `New message in ${notif.chat.chatName}`
-                    : `New message from ${getSender(user, notif.chat.users)}`}
+                    ? `New Message in ${notif.chat.chatName}`
+                    : `New Message from ${getSender(user, notif.chat.users)}`}
                 </MenuItem>
               ))}
             </MenuList>
@@ -193,7 +200,7 @@ function SideDrawer() {
       <Drawer placement="left" onClose={onClose} isOpen={isOpen}>
         <DrawerOverlay />
         <DrawerContent>
-          <DrawerHeader borderBottomWidth="1px">Search users</DrawerHeader>
+          <DrawerHeader borderBottomWidth="1px">Search Users</DrawerHeader>
           <DrawerBody>
             <Box d="flex" pb={2}>
               <Input

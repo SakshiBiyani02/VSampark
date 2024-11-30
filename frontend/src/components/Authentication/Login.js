@@ -23,7 +23,7 @@ const Login = () => {
     setLoading(true);
     if (!email || !password) {
       toast({
-        title: "Please Fill all the Feilds",
+        title: "Please fill all the fields",
         status: "warning",
         duration: 5000,
         isClosable: true,
@@ -111,11 +111,11 @@ const Login = () => {
         colorScheme="red"
         width="100%"
         onClick={() => {
-          setEmail("guest@gmail.com");
+          setEmail("guest@example.com");
           setPassword("123456");
         }}
       >
-        Get guest user credentials
+        Get Guest User Credentials
       </Button>
     </VStack>
   );

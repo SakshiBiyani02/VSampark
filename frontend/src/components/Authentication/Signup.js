@@ -24,7 +24,7 @@ const Signup = () => {
     setPicLoading(true);
     if (!name || !email || !password || !confirmpassword) {
       toast({
-        title: "Please Fill all the Feilds",
+        title: "Please fill all the fields",
         status: "warning",
         duration: 5000,
         isClosable: true,
@@ -35,7 +35,7 @@ const Signup = () => {
     }
     if (password !== confirmpassword) {
       toast({
-        title: "Passwords Do Not Match",
+        title: "Passwords do not match",
         status: "warning",
         duration: 5000,
         isClosable: true,
@@ -88,7 +88,7 @@ const Signup = () => {
     setPicLoading(true);
     if (pics === undefined) {
       toast({
-        title: "Please Select an Image!",
+        title: "Please select an image!",
         status: "warning",
         duration: 5000,
         isClosable: true,
@@ -100,9 +100,9 @@ const Signup = () => {
     if (pics.type === "image/jpeg" || pics.type === "image/png") {
       const data = new FormData();
       data.append("file", pics);
-      data.append("upload_preset", "ChatApp");
-      data.append("cloud_name", "dcvkuyxr0");
-      fetch("https://api.cloudinary.com/v1_1/dcvkuyxr0/image/upload", {
+      data.append("upload_preset", "chat-app");
+      data.append("cloud_name", "piyushproj");
+      fetch("https://api.cloudinary.com/v1_1/piyushproj/image/upload", {
         method: "post",
         body: data,
       })
@@ -118,7 +118,7 @@ const Signup = () => {
         });
     } else {
       toast({
-        title: "Please Select an Image!",
+        title: "Please select an image!",
         status: "warning",
         duration: 5000,
         isClosable: true,
@@ -134,7 +134,7 @@ const Signup = () => {
       <FormControl id="first-name" isRequired>
         <FormLabel>Name</FormLabel>
         <Input
-          placeholder="Enter Your Name"
+          placeholder="Enter your name"
           onChange={(e) => setName(e.target.value)}
         />
       </FormControl>
